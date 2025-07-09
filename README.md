@@ -2,6 +2,10 @@
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Live Demo
+
+🚀 Deployed at: [https://supreme-group-six-alpha.vercel.app/](https://supreme-group-six-alpha.vercel.app/)
+
 ## Getting Started
 
 First, run the development server:
@@ -32,7 +36,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 ### 🧱 Component Architecture Overview
 - `components/Navbar.js` – sticky, scroll-detecting navigation bar
 - `components/Hero.js` – hero section with video/image background
-- `components/VehicleSolutions.js` – scroll-based animated section using Framer Motion
+- `components/Drive360Solutions.js` – scroll-based animated section using Framer Motion
 - `components/Footer.js` – clean and responsive footer layout
 - `app/page.js` – the main entry where all components are combined
 
@@ -54,7 +58,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 ### 🔌 Third-Party Libraries Used
 - `framer-motion`: for smooth animations and scroll interactions
 - `clsx`: for conditional class management
-- `swiper`: for carousels/sliders
+- `swiper`: (optional if added) for carousels/sliders
 
 ### 🤔 Assumptions & Decisions
 - The scroll-based transition was preferred over tabs for better storytelling
