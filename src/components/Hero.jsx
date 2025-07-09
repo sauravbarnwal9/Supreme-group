@@ -1,6 +1,5 @@
 // components/Hero.tsx
 import { motion } from "framer-motion";
-// import ConstructorVideo from ""; // Adjust the path as necessary
 
 export function Hero() {
   return (

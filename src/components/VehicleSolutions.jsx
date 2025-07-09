@@ -88,16 +88,8 @@ export function VehicleSolutions() {
             onSlideChange={handleSlideChange}
             modules={[Pagination]}
             className="h-full w-full"
-            style={{
-              // @ts-ignore - custom CSS variables
-              "--swiper-pagination-color": "#fff",
-              "--swiper-pagination-bullet-inactive-color": "#999",
-              "--swiper-pagination-bullet-inactive-opacity": "1",
-              "--swiper-pagination-bullet-size": "8px",
-              "--swiper-pagination-bullet-horizontal-gap": "6px",
-            }}
+
             pagination={{
-              clickable: true,
               el: ".swiper-pagination",
               type: "bullets",
             }}

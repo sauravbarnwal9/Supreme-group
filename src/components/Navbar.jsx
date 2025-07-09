@@ -50,13 +50,12 @@ export function Navbar() {
             <img
               src="/assets/images/Layer 1.png"
               alt="Supreme Group logo"
-              className="h-8"
+              className="h-8 md:h-[41px] md:w-[126px]"
             />
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            {/* {navLinks.map((link) => ( */}
 
             <button
               type="submit"
@@ -64,7 +63,6 @@ export function Navbar() {
             >
               Contact Us
             </button>
-            {/* ))} */}
 
             <Link href="/" className="text-2xl font-bold text-white">
               <img
@@ -84,7 +82,7 @@ export function Navbar() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-white focus:outline-none"
+            className="md:hidden text-black focus:outline-none"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (
